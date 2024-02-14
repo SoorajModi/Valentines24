@@ -17,14 +17,14 @@ export default function Home() {
               {
                 no ? (
                   <>
-                    <Image src="/corgi-no.jpeg" alt="Corgi sad" height={300} width={300} priority />
+                    <Image src="/corgi-no.gif" alt="Corgi no" height={300} width={300} priority />
                     <p className="text-black text-4xl">Haha, really funny, try again...</p>
                   </>
                 ) 
               :
                 (
                   <>
-                    <Image src="/corgi-love.gif" alt="Corgi love gif" height={300} width={300} priority />
+                    <Image src="/corgi.gif" alt="Corgi gif" height={300} width={300} priority />
                     <p className="text-black text-4xl">Will you be my Valentine?</p>
                   </>
                 )
