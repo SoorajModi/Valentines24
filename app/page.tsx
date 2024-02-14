@@ -33,7 +33,7 @@ export default function Home() {
                 <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded w-16" onClick={() => setYes(true)}>
                   Yes
                 </button>
-                <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded w-16" onClick={() => setNo(true)}>
+                <button className={`bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded w-16 ${no && 'cursor-not-allowed opacity-50 hover:bg-red-500'}`} disabled={no} onClick={() => setNo(true)}>
                   No
                 </button>
               </div>
